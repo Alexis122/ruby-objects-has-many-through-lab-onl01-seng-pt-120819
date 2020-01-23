@@ -22,6 +22,3 @@ class Genre
   def arists 
     songs.collect {|song| song.artist}
   end
-end
-  
- 
