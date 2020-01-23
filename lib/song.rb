@@ -10,7 +10,7 @@ class Song
     @@all << self
   end
   
-madonna = Artist.new("Madonna")
-pop = Genre.new("pop")
- 
-into_the_groove = Song.new("Into the Groove", madonna, pop)
+def self.all
+  @@all
+  end
+end
